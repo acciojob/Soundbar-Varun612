@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body {
+	background-color:mediumpurple;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100vh;margin:0;
+}
+#buttons{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;gap:10px;
+}
+button{
+	background-color:rebeccapurple;border:none;height:50px;
+	padding:3px 30px;color:white;border-radius:5px;cursor:pointer;
+}
+button:hover {
+    background-color: darkviolet; /* Changes color on hover */
+}
